@@ -71,7 +71,7 @@ export default function Home({ name }) {
       <LandingPage />
       <AboutSection />
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       <ContactSection />
       <Social />
       <a href="#" className="w-6 h-6 bg-[#73F8AB] rounded-full border hover:border-[#73F8AB] hover:text-[#73F8AB] fixed bottom-3 right-3 flex justify-center items-center hover:bg-transparent cursor-pointer"><MdKeyboardArrowUp className='text-3xl' /></a>
