@@ -39,7 +39,7 @@ const Navbar = () => {
                         <a href='#contact' id='contacts-btn' onClick={() => { setMenuClicked('contacts-btn') }} className='text-[#73F8AB] cursor-pointer hover:text-[#73F8AB] menu-item'>Contacts</a>
                         <a href='#skills' id='skills-btn' onClick={() => { setMenuClicked('skills-btn') }} className='cursor-pointer hover:text-[#73F8AB] menu-item'>Skills</a>
                         <a href='#works' id='works-btn' onClick={() => { setMenuClicked('works-btn') }} className='cursor-pointer hover:text-[#73F8AB] menu-item'>Works</a>
-                        <a href='/cv.pdf' download={true} id='cv-btn' className='cursor-pointer hover:text-[#73F8AB] menu-item flex items-center gap-1'>CV <TbDownload /></a>
+                        <a href='#' download={true} id='cv-btn' className='cursor-pointer hover:text-[#73F8AB] menu-item flex items-center gap-1'>CV <TbDownload /></a>
                     </ul>
                 </div>
                 <div className='md:block hidden'>
@@ -49,7 +49,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='md:hidden flex items-center gap-3 text-sm'>
-                        <a href='/cv.pdf' download={true} className="flex items-center mr-0 text-white hover:underline duration-100 aspect-square cursor-pointer relative hover:text-[#73F8AB]">
+                        <a href='#' download={true} className="flex items-center mr-0 text-white hover:underline duration-100 aspect-square cursor-pointer relative hover:text-[#73F8AB]">
                         <div className="flex  items-center gap-1">
                             CV <TbDownload />
                         </div>
@@ -67,7 +67,7 @@ const Navbar = () => {
                     <a href='#contact' id='mobile-contacts-btn' onClick={() => { setMenuClicked('mobile-contacts-btn') }} className='cursor-pointer hover:text-[#73F8AB] menu-item'>Contacts</a>
                     <a href='#skills' id='mobile-skills-btn' onClick={() => { setMenuClicked('mobile-skills-btn') }} className='cursor-pointer hover:text-[#73F8AB] menu-item'>Skills</a>
                     <a href='#works' id='mobile-works-btn' onClick={() => { setMenuClicked('mobile-works-btn') }} className='cursor-pointer hover:text-[#73F8AB] menu-item'>Works</a>
-                    <a href='/cv.pdf' download={true} id='mobile-cv-btn' className='cursor-pointer hover:text-[#73F8AB] menu-item flex items-center gap-1'>CV <TbDownload /></a>
+                    <a href='#' download={true} id='mobile-cv-btn' className='cursor-pointer hover:text-[#73F8AB] menu-item flex items-center gap-1'>CV <TbDownload /></a>
                 </ul>
                 <ul className="flex flex-col gap-4 items-start text-white">
                     <a href='https://github.com/AltamashAhmad' target="_blank" rel="nofollow" className='flex items-center gap-1 cursor-pointer hover:text-[#73F8AB]'><AiFillGithub /> Github</a>
