@@ -18,7 +18,7 @@ const Skills = () => {
         {/* <Skill title={"NodeJs"} percent={40} color={'#68a063'}/> */}
         <Skill title={"ReactJs"} percent={60} color={'#61dbfb'}/>
         {/* <Skill title={"TailwindCSS"} percent={60} color={'#36B7F0'}/> */}
-        <Skill title={"CPP"} percent={100} color={'#044F88'}/>
+        <Skill title={"CPP"} percent={70} color={'#044F88'}/>
         {/* <Skill title={"Github"} percent={55} color={'#8F00FF'}/> */}
         <Skill title={"Data Structures"} percent={60} color={'#8F00FF'}/>
         {/* <Skill title={"NextJs"} percent={55} color={'#FF69B4'}/> */}
