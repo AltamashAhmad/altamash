@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import { AiOutlineTwitter, AiFillGithub } from 'react-icons/ai'
-import { MdOutlineMenuOpen, MdOutlineClose, MdOutlineSpeakerNotes, MdFileDownload } from 'react-icons/md'
+import {AiFillGithub } from 'react-icons/ai'
+import { MdOutlineMenuOpen, MdOutlineClose } from 'react-icons/md'
 import { HiOutlineMail } from 'react-icons/hi'
-import { FiMessageSquare } from 'react-icons/fi'
-import Link from 'next/link'
 import { TbDownload } from 'react-icons/tb'
 const Navbar = () => {
     const [menuClicked, setMenuClicked] = useState(null);

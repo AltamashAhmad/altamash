@@ -1,12 +1,6 @@
 import React from 'react'
-import { GrReactjs } from 'react-icons/gr'
-import { FaNodeJs } from 'react-icons/fa'
-import { SiJavascript } from 'react-icons/si'
 import { AiFillInstagram } from 'react-icons/ai'
-import { BsFacebook, BsLinkedin } from 'react-icons/bs'
-import { VscDebugBreakpointFunction } from 'react-icons/vsc'
-import Skill from './Skill'
-// 73F8AB
+import { BsLinkedin } from 'react-icons/bs'
 const Social = ({name}) => {
   return (
     <div className="container md:px-12 px-2 m-auto  flex flex-col">{name}

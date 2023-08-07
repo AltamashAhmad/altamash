@@ -1,10 +1,6 @@
 import React, {useContext} from 'react'
 import AppContext from 'AppContext'
-import { GrReactjs } from 'react-icons/gr'
-import { FaNodeJs } from 'react-icons/fa'
-import { SiJavascript } from 'react-icons/si'
 import { AiOutlineEye, AiOutlineFire } from 'react-icons/ai'
-import { BsCodeSlash } from 'react-icons/bs'
 const AboutSection = () => {
   const {filterProjects} = useContext(AppContext);
   return (

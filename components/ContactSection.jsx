@@ -1,9 +1,4 @@
 import React, { useState } from 'react'
-import { GrReactjs } from 'react-icons/gr'
-import { FaNodeJs } from 'react-icons/fa'
-import { SiJavascript } from 'react-icons/si'
-import { AiOutlineEye } from 'react-icons/ai'
-import { BsCodeSlash } from 'react-icons/bs'
 import { ImUser } from 'react-icons/im'
 import {MdAlternateEmail} from 'react-icons/md'
 import toast, { Toaster } from 'react-hot-toast';
@@ -32,28 +27,6 @@ const ContactSection = () => {
     setTimeout(() => {
       toast.error("Will be updated soon..")
     }, 400);
-    // toast.success("Message Sent")
-    // toast.promise(new Promise(async (resolve, reject)=>{
-    //   const response = await fetch('/api/contact', {
-    //     method:'POST',
-    //     headers:{
-    //       'content-type':'application/json',
-    //     },
-    //     body:JSON.stringify({data})
-    //   })
-    //   const json = await response.json();
-    //   setData({name:'', email:'', message:''})
-    //   if(json.success){
-    //     resolve();
-    //   }else{
-    //     reject();
-    //   }
-    // }), {
-    //   loading:'Sending',
-    //   success:'Message Sent',
-    //   error:'Failed'
-    // })
-    
   }
   return (
     <div id='contact' className="container md:p-12 px-2  m-auto  flex flex-col-reverse md:flex-row justify-center h-[calc(100vh-60px)]">
